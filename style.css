@@ -16,10 +16,11 @@ body {
     line-height: 1.6; /* Example: Set a default line height */
     max-width: 1400px;
     margin: 0 auto 0 auto;
-    background: #e5ebef; /* Example: Set a default background color */
+    background: #eeeeee; /* Example: Set a default background color */
 }
 
 header {
+    box-shadow: 0px 0px 1px;
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -33,6 +34,7 @@ header {
 }
 
 .content-container {
+    box-shadow: 0px 0px 1px;
     background-color: #fff;;
     /*padding: 15px;*/
     display: flex;

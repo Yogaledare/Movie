@@ -1,0 +1,126 @@
+﻿*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html {
+    font-size: 100%; /* Adjust this value for overall font sizing */
+}
+
+body {
+    font-family: 'Helvetica', sans-serif; /* Example: Set a default font for your website */
+    line-height: 1.6; /* Example: Set a default line height */
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+    background: #e5ebef; /* Example: Set a default background color */
+}
+
+header {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url("images/background.png");
+    background-position: center; 
+    ,background-repeat: no-repeat; 
+    /*height: 100px; !* Example height, adjust based on your design *!*/
+}
+
+.content-container {
+    background-color: #fff;;
+    /*padding: 15px;*/
+    display: flex;
+    margin-bottom: 20px;
+    /*grid-template-columns: 1fr auto; !* 1 fraction for text, auto for video to maintain aspect ratio *!*/
+    gap: 20px; /* Space between text and video */
+    align-items: flex-start; /* Align items to the start of the container */
+}
+
+.content-container iframe {
+    flex-grow: 0; /* Prevents the iframe from growing */
+    flex-shrink: 0; /* Prevents the iframe from shrinking */
+    flex-basis: auto; /* Default. The size of the iframe is based on its width and height attributes */
+}
+
+.content-container p, h2 {
+    margin-bottom: 0.5em;
+}
+
+#content {
+    padding: 10px;
+}
+
+#links {
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centers the list items horizontally */
+    gap: 20px;
+}
+
+/*footer {*/
+/*    align-items: center;*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*justify-content: center;*!*/
+/*    !*gap: 20px;*!*/
+/*}*/
+
+footer {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Vertically centers content in the container */
+    align-items: center; /* Horizontally centers content in the container */
+    /*gap: 20px; !* Space between the items *!*/
+}
+
+/*#links li a {*/
+/*    text-decoration: none;*/
+/*    color: #000;*/
+/*}*/
+
+
+/*#links li a:hover, ul li a:focus {*/
+/*    color: #fff; !* Changes text color on hover/focus; adjust as needed *!*/
+/*    background-color: #007bff; !* Changes background on hover/focus; choose your color *!*/
+/*    border-color: #0056b3; !* Changes border color on hover/focus; adjust as needed *!*/
+/*}*/
+
+
+/*.content-container section {*/
+/*    flex: 1; !* Allows the section to grow *!*/
+/*    !*max-width: 500px; !* Maximum width of the text section *!*!*/
+/*}*/
+
+/*.content-container iframe {*/
+/*    !*flex: 3; !* Allows the iframe to grow *!*!*/
+/*!*    max-width: 800px; !* Maximum width of the iframe *!*!*/
+/*!*    width: 100%; !* Make iframe responsive *!*!*/
+/*!*    height: auto; !* Adjust height automatically *!*!*/
+/*}*/
+
+
+
+/*.content-container {*/
+/*    display: flex;*/
+/*    !*align-items: flex-start;*!*/
+/*    !*justify-content: space-between;*!*/
+/*    flex-wrap: wrap;*/
+/*    gap: 20px;*/
+/*}*/
+
+/*.content-container {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr auto; !* 1 fraction for text, auto for video to maintain aspect ratio *!*/
+/*    gap: 20px; !* Space between text and video *!*/
+/*    align-items: start; !* Align items to the start of the container *!*/
+/*}*/
+
+
+
